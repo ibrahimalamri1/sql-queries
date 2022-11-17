@@ -20,7 +20,7 @@ SELECT neighborhood,
 INTO   brooklyn_newtable
 FROM   brooklyn_realstate
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------
 -- assinging the approprite data type to our coulmns 
 SELECT DISTINCT year_built
 FROM   brooklyn_newtable
